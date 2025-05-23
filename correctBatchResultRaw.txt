@@ -1,0 +1,263 @@
+Batch envelope before autofill: {
+  "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+  "TransactionType": "Batch",
+  "Flags": 65536,
+  "Fee": "90",
+  "RawTransactions": [
+    {
+      "RawTransaction": {
+        "TransactionType": "NFTokenCreateOffer",
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "NFTokenID": "00080000BD5979DFF777A931F2C9609BC2812717FC5426A955C15A870000A4EC",
+        "Amount": "3000000",
+        "Flags": 1,
+        "NetworkID": 21336,
+        "Fee": "0",
+        "Sequence": 42225,
+        "SigningPubKey": ""
+      }
+    },
+    {
+      "RawTransaction": {
+        "TransactionType": "NFTokenCreateOffer",
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "NFTokenID": "00080000BD5979DFF777A931F2C9609BC2812717FC5426A96CA72B880000A4ED",
+        "Amount": "3000000",
+        "Flags": 1,
+        "NetworkID": 21336,
+        "Fee": "0",
+        "Sequence": 42226,
+        "SigningPubKey": ""
+      }
+    },
+    {
+      "RawTransaction": {
+        "TransactionType": "NFTokenCreateOffer",
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "NFTokenID": "00080000BD5979DFF777A931F2C9609BC2812717FC5426A9838CFC890000A4EE",
+        "Amount": "3000000",
+        "Flags": 1,
+        "NetworkID": 21336,
+        "Fee": "0",
+        "Sequence": 42227,
+        "SigningPubKey": ""
+      }
+    },
+    {
+      "RawTransaction": {
+        "TransactionType": "NFTokenCreateOffer",
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "NFTokenID": "00080000BD5979DFF777A931F2C9609BC2812717FC5426A99A72CD8A0000A4EF",
+        "Amount": "3000000",
+        "Flags": 1,
+        "NetworkID": 21336,
+        "Fee": "0",
+        "Sequence": 42228,
+        "SigningPubKey": ""
+      }
+    }
+  ],
+  "BatchSigners": []
+}
+App.tsx:181 Batch envelope after signature: {
+  "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+  "TransactionType": "Batch",
+  "Flags": 65536,
+  "Fee": "500",
+  "RawTransactions": [
+    {
+      "RawTransaction": {
+        "TransactionType": "NFTokenCreateOffer",
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "NFTokenID": "00080000BD5979DFF777A931F2C9609BC2812717FC5426A955C15A870000A4EC",
+        "Amount": "3000000",
+        "Flags": 1,
+        "NetworkID": 21336,
+        "Fee": "0",
+        "Sequence": 42225,
+        "SigningPubKey": "ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C94"
+      }
+    },
+    {
+      "RawTransaction": {
+        "TransactionType": "NFTokenCreateOffer",
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "NFTokenID": "00080000BD5979DFF777A931F2C9609BC2812717FC5426A96CA72B880000A4ED",
+        "Amount": "3000000",
+        "Flags": 1,
+        "NetworkID": 21336,
+        "Fee": "0",
+        "Sequence": 42226,
+        "SigningPubKey": "ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C94"
+      }
+    },
+    {
+      "RawTransaction": {
+        "TransactionType": "NFTokenCreateOffer",
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "NFTokenID": "00080000BD5979DFF777A931F2C9609BC2812717FC5426A9838CFC890000A4EE",
+        "Amount": "3000000",
+        "Flags": 1,
+        "NetworkID": 21336,
+        "Fee": "0",
+        "Sequence": 42227,
+        "SigningPubKey": "ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C94"
+      }
+    },
+    {
+      "RawTransaction": {
+        "TransactionType": "NFTokenCreateOffer",
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "NFTokenID": "00080000BD5979DFF777A931F2C9609BC2812717FC5426A99A72CD8A0000A4EF",
+        "Amount": "3000000",
+        "Flags": 1,
+        "NetworkID": 21336,
+        "Fee": "0",
+        "Sequence": 42228,
+        "SigningPubKey": "ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C94"
+      }
+    }
+  ],
+  "BatchSigners": [
+    {
+      "BatchSigner": {
+        "Account": "rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk",
+        "SigningPubKey": "ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C94",
+        "TxnSignature": "F2E0E6AABC6ECC2F5C0D05C679877DA2D5AE9661A71B6FF2B30A49CFCF96C3CE37FDEF7EB71007ACC279966F93684A820DB2C2A17FD09773392108C27D08760C"
+      }
+    }
+  ],
+  "Sequence": 42224,
+  "SigningPubKey": "ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C94"
+}
+App.tsx:197 Batch Submit: 
+{api_version: 2, id: 6, result: {…}, type: 'response'}
+api_version
+: 
+2
+id
+: 
+6
+result
+: 
+accepted
+: 
+true
+account_sequence_available
+: 
+42224
+account_sequence_next
+: 
+42224
+applied
+: 
+false
+broadcast
+: 
+false
+engine_result
+: 
+"telREQUIRES_NETWORK_ID"
+engine_result_code
+: 
+-385
+engine_result_message
+: 
+"Transactions submitted to this node/network must include a correct NetworkID field."
+kept
+: 
+true
+open_ledger_cost
+: 
+"70"
+queued
+: 
+false
+tx_blob
+: 
+"1200472200010000240000A4F06840000000000001F47321ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C94744034846CBD621D3DA8004BEFC812B90B95B7FE32635E2724B306F666CCDD8667B8D8E96A489E0B62CC2CB5F224BF300BC496EA424CE58F8403F443F80642B0BA068114BD5979DFF777A931F2C9609BC2812717FC5426A9F01EE02212001B21000053582200000001240000A4F15A00080000BD5979DFF777A931F2C9609BC2812717FC5426A955C15A870000A4EC6140000000002DC6C06840000000000000007321ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C948114BD5979DFF777A931F2C9609BC2812717FC5426A9E1E02212001B21000053582200000001240000A4F25A00080000BD5979DFF777A931F2C9609BC2812717FC5426A96CA72B880000A4ED6140000000002DC6C06840000000000000007321ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C948114BD5979DFF777A931F2C9609BC2812717FC5426A9E1E02212001B21000053582200000001240000A4F35A00080000BD5979DFF777A931F2C9609BC2812717FC5426A9838CFC890000A4EE6140000000002DC6C06840000000000000007321ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C948114BD5979DFF777A931F2C9609BC2812717FC5426A9E1E02212001B21000053582200000001240000A4F45A00080000BD5979DFF777A931F2C9609BC2812717FC5426A99A72CD8A0000A4EF6140000000002DC6C06840000000000000007321ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C948114BD5979DFF777A931F2C9609BC2812717FC5426A9E1F1F01FE0237321ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C947440F2E0E6AABC6ECC2F5C0D05C679877DA2D5AE9661A71B6FF2B30A49CFCF96C3CE37FDEF7EB71007ACC279966F93684A820DB2C2A17FD09773392108C27D08760C8114BD5979DFF777A931F2C9609BC2812717FC5426A9E1F1"
+tx_json
+: 
+Account
+: 
+"rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk"
+BatchSigners
+: 
+[{…}]
+Fee
+: 
+"500"
+Flags
+: 
+65536
+RawTransactions
+: 
+Array(4)
+0
+: 
+RawTransaction
+: 
+{Account: 'rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk', Amount: '3000000', Fee: '0', Flags: 1, NFTokenID: '00080000BD5979DFF777A931F2C9609BC2812717FC5426A955C15A870000A4EC', …}
+[[Prototype]]
+: 
+Object
+1
+: 
+RawTransaction
+: 
+{Account: 'rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk', Amount: '3000000', Fee: '0', Flags: 1, NFTokenID: '00080000BD5979DFF777A931F2C9609BC2812717FC5426A96CA72B880000A4ED', …}
+[[Prototype]]
+: 
+Object
+2
+: 
+RawTransaction
+: 
+{Account: 'rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk', Amount: '3000000', Fee: '0', Flags: 1, NFTokenID: '00080000BD5979DFF777A931F2C9609BC2812717FC5426A9838CFC890000A4EE', …}
+[[Prototype]]
+: 
+Object
+3
+: 
+RawTransaction
+: 
+{Account: 'rJGBuwR82eQUzoGobPqRVwcGQDR4QJznMk', Amount: '3000000', Fee: '0', Flags: 1, NFTokenID: '00080000BD5979DFF777A931F2C9609BC2812717FC5426A99A72CD8A0000A4EF', …}
+[[Prototype]]
+: 
+Object
+length
+: 
+4
+[[Prototype]]
+: 
+Array(0)
+Sequence
+: 
+42224
+SigningPubKey
+: 
+"ED4C04B00B1636C0C1E02A107DE247FF858FC5F96813435662ECEE1C3FC9418C94"
+TransactionType
+: 
+"Batch"
+TxnSignature
+: 
+"34846CBD621D3DA8004BEFC812B90B95B7FE32635E2724B306F666CCDD8667B8D8E96A489E0B62CC2CB5F224BF300BC496EA424CE58F8403F443F80642B0BA06"
+hash
+: 
+"B52D9A45E0DD61E353DA30E8A182048848C40D032F477D2E16DC1E3931C1983F"
+[[Prototype]]
+: 
+Object
+validated_ledger_index
+: 
+42958
+[[Prototype]]
+: 
+Object
+type
+: 
+"response"
+[[Prototype]]
+: 
+Object
